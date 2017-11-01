@@ -1,0 +1,87 @@
+.wrap{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    font-size: .12rem;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background: #393A3F;
+    height: .35rem;
+    line-height: .35rem;
+    flex-shrink: 0;
+}
+header a{
+    padding:0 .08rem;
+    color: #fff;
+    font-size: .2rem;
+}
+#exit{
+    border-right: 1px solid #27282D;
+}
+#more{
+    float: right;
+    line-height: .35rem;
+}
+header h1{
+    font-size: .16rem;
+    padding-left: .08rem;
+    color: #fff;
+    display: inline-block;
+    font-weight: lighter;
+}
+section{
+    flex-grow: 1;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #818D9B;
+    padding:.375rem .07rem;
+}
+.sec{
+    background: #fff;
+    border-radius: .05rem;
+    height: 100%;
+}
+.top{
+    text-align: center;
+    padding-top: .33rem;
+    padding-bottom: .45rem;
+}
+.top img{
+    width: 1.08rem;
+}
+.top h2{
+    font-size: .15rem;
+    font-weight: lighter;
+}
+section label{
+    display: block;
+    height: .4rem;
+    margin:0 .3rem .3rem .3rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #838987;
+}
+section label img{
+    width: .14rem;
+    margin-left: .15rem;
+    margin-right: .15rem;
+}
+section label input{
+    border-width: 0;
+    flex-grow: 1;
+}
+.btn{
+    margin:.1rem .3rem;
+}
+#loginBtn{
+    width: 100%;
+    height: .38rem;
+    background: #2FBA77;
+    color:#fff;
+    border-width: 0;
+    font-size: .14rem;
+}
