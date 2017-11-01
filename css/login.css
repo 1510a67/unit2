@@ -38,12 +38,19 @@ section{
     overflow: hidden;
     overflow-y: auto;
     background: #818D9B;
-    padding:.375rem .07rem;
+    position: relative;
 }
 .sec{
     background: #fff;
-    border-radius: .05rem;
-    height: 100%;
+    border-radius: .10rem;
+    position: absolute;
+    top:.375rem;
+    bottom:.375rem;
+    left:.07rem;
+    right: .07rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .top{
     text-align: center;
